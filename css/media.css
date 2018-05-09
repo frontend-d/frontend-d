@@ -1,0 +1,348 @@
+@charset "UTF-8";
+/* Medium devices (desktops) */
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .first-section .container .col-md-6 .logoblock {
+    height: 192px !important; }
+  .first-section .container .col-md-6 .logoblock span {
+    width: 378px !important;
+    height: 113px !important; }
+  .phones-block span {
+    font-size: 1.5em !important; }
+  .first-section .container .phones-block p {
+    font-size: 1em !important;
+    margin-right: 20px; }
+  .first-section .container .location-block span {
+    font-size: 1.5em !important; }
+  .first-section .container .location-block p {
+    font-size: 1em !important; }
+  .first-section .caption-block h3 {
+    font-size: 3em !important; }
+  .first-section .caption-block span {
+    font-size: 1.5em !important;
+    border: 8px solid #b0682a !important; }
+  .mini-repository {
+    padding: 42px 62px 0 0 !important; }
+  .mini-repository img {
+    height: 350px !important;
+    margin-right: 10px !important; }
+  .mini-repository p {
+    font-size: 1em !important; }
+  .consultation-block .consultation-form h3 {
+    font-size: 2em !important; }
+  .text-block h2 {
+    font-size: 1.1em !important; }
+  .first-worth-type .text-block {
+    padding-right: 180px; }
+  .first-worth-type .text-block p {
+    margin-top: 10px; }
+  .worth-4 .text-block {
+    padding-left: 210px; }
+  .worth-3 .text-block p {
+    margin-top: 55px !important; }
+  .worth-4 .text-block p {
+    margin-top: 55px !important; }
+  .worth-5 .text-block p {
+    margin-top: 55px !important; }
+  .worth-7 .text-block h2 {
+    margin-bottom: 0px !important; }
+  .perfect-location-block .perfect-location .location-description p {
+    font-size: 1em !important; }
+  .perfect-location-block .perfect-location img {
+    height: 250px !important;
+    margin-top: -100px !important;
+    margin-right: -115px !important; }
+  .max-price p {
+    font-size: 3.2em !important; }
+  .price-block h3 {
+    margin-bottom: 50px !important; }
+  .price {
+    margin-top: -330px !important;
+    padding-bottom: 10px !important; }
+  .price h3 {
+    margin-bottom: 0 !important;
+    padding-bottom: 10px !important; }
+  .price .row .col-md-6 li {
+    margin: 17px 0 0 0 !important; }
+  .price .row .col-md-6 .pl30 {
+    padding-left: 0px !important; }
+  .down-link {
+    margin-top: -100px !important; }
+  .ui-widget.ui-widget-content {
+    width: 680px !important; }
+  .gradation {
+    width: 680px; } }
+
+/* Small devices (tablets) */
+@media (min-width: 768px) and (max-width: 992px) {
+  .first-section .container .col-md-6 .logoblock {
+    height: 160px !important; }
+  .first-section .container .col-md-6 .logoblock span {
+    width: 270px !important;
+    height: 80px !important; }
+  .phones-block span {
+    font-size: 1.2em !important; }
+  .first-section .container .phones-block p {
+    font-size: 1em !important;
+    margin-right: 20px; }
+  .first-section .container .location-block span {
+    font-size: 1.2em !important; }
+  .first-section .container .location-block p {
+    font-size: 1em !important; }
+  .first-section .caption-block h3 {
+    font-size: 3em !important; }
+  .first-section .caption-block span {
+    font-size: 1.5em !important;
+    border: 8px solid #b0682a !important; }
+  .icon-bar h3 {
+    margin-bottom: 85px !important; }
+  .icon-bar p {
+    margin-bottom: 50px !important; }
+  .mini-repository img {
+    height: 250px !important;
+    margin-top: -60px !important;
+    margin-left: -30px !important; }
+  .mini-repository p {
+    font-size: 0.9em !important;
+    margin-left: 10px !important; }
+  .mini-repository {
+    padding: 50px 62px 0 0 !important; }
+  .text-block h2 {
+    font-size: 1em !important; }
+  .text-block p {
+    font-size: 0.8em !important; }
+  .first-worth-type .text-block {
+    padding-right: 150px; }
+  .first-worth-type .text-block p {
+    margin-top: 10px; }
+  .worth-2 .text-block {
+    padding-left: 90px; }
+  .worth-4 .text-block {
+    padding-left: 210px; }
+  .worth-3 .text-block p {
+    margin-top: 55px !important; }
+  .worth-4 .text-block p {
+    margin-top: 55px !important; }
+  .worth-5 .text-block p {
+    margin-top: 55px !important; }
+  .worth-7 .text-block {
+    padding-right: 120px !important; }
+  .worth-7 .text-block h2 {
+    margin-bottom: 0px !important; }
+  .consultation-block .consultation-form h3 {
+    font-size: 1.7em !important; }
+  .location-description {
+    padding-left: 10px !important; }
+  .perfect-location-block .perfect-location {
+    padding: 30px 0 !important; }
+  .perfect-location-block .perfect-location .location-description p {
+    font-size: 0.9em !important; }
+  .perfect-location-block .perfect-location img {
+    height: 200px !important;
+    margin-top: -60px !important;
+    margin-right: -30px !important; }
+  .price-block {
+    height: 880px !important; }
+    .price-block::before {
+      height: 880px !important; }
+  .price-block h3 {
+    margin-bottom: 10px !important; }
+  .price {
+    margin-top: 0px !important;
+    padding-bottom: 10px !important; }
+  .price h3 {
+    margin-bottom: 0 !important;
+    padding-bottom: 10px !important; }
+  .price .row .col-md-6 li {
+    margin: 17px 0 0 0 !important; }
+  .price .row .col-md-6 .pl30 {
+    padding-left: 0px !important; }
+  .max-price {
+    border: none;
+    height: 180px;
+    text-align: center; }
+  .max-price p {
+    font-size: 2.5em; }
+  .calс_tab_p_2 {
+    display: none !important; }
+  .calс_tab_p_input input {
+    font-size: 1.5em; }
+  .calculator .col-md-12 p {
+    margin: 30px 0 40px 0; }
+  .city, .work-time, .footer-phones ul li {
+    font-size: 0.8em; } }
+
+/* Extra small devices (phones) */
+@media screen and (max-width: 768px) {
+  .first-section .container .col-md-6 .logoblock {
+    height: 135px !important; }
+  .first-section .container .col-md-6 .logoblock span {
+    width: 220px !important;
+    height: 64px !important; }
+  .first-section .caption-block h3 {
+    font-size: 30px; }
+  .first-section .caption-block p {
+    font-size: 19px; }
+  .first-section {
+    height: 520px; }
+    .first-section::before {
+      height: 520px; }
+  .icon-bar h3 {
+    font-size: 22px;
+    margin-bottom: 60px; }
+  .icon-bar .col-xs-12 {
+    margin-bottom: 60px; }
+  .mini-repository {
+    border: 6px solid #b0682a;
+    margin: 0;
+    padding: 10px 10px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+    margin-bottom: 85px; }
+  .mini-repository p {
+    font-size: 15px; }
+  .consultation-block {
+    height: auto;
+    padding: 40px 10px; }
+  .consultation-block .consultation-form h3 {
+    margin-bottom: 20px;
+    font-size: 25px; }
+  #sendm {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+    #sendm input {
+      width: 100%;
+      margin-bottom: 40px; }
+    #sendm .btn-primary {
+      width: 100%; }
+  .text-block {
+    padding-top: 10px;
+    width: 100%;
+    height: 100%;
+    -webkit-clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 0) !important;
+            clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 0) !important;
+    text-align: center !important;
+    display: -webkit-box !important;
+    display: -webkit-flex !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+    .text-block h2 {
+      font-size: 16px !important;
+      margin-bottom: 10px !important; }
+    .text-block p {
+      margin-top: 10px !important;
+      font-size: 14px !important; }
+  .worth-7 .text-block {
+    padding: 10px 15px !important; }
+    .worth-7 .text-block h2 {
+      margin-bottom: 0px !important; }
+    .worth-7 .text-block p {
+      margin-top: 0px !important; }
+  .motive-description .description {
+    padding: 10px;
+    border: 6px solid #426162; }
+  .motive-description .description p {
+    font-size: 14px;
+    text-align: center; }
+  .perfect-location-block .perfect-location {
+    padding: 10px !important;
+    border: 6px solid #b0682a; }
+  .perfect-location-block .perfect-location .location-description {
+    text-align: center;
+    padding-left: 0; }
+  .perfect-location-block .perfect-location img {
+    display: none; }
+  .perfect-location-block .perfect-location .location-description p {
+    font-size: 14px; }
+  .price-block h3 {
+    font-size: 29px;
+    margin-bottom: 40px; }
+  .price {
+    margin-top: 0px;
+    margin-bottom: 0;
+    padding-bottom: 0; }
+  .price-block {
+    height: 1050px; }
+    .price-block::before {
+      height: 1050px; }
+  .max-price {
+    border: 6px solid #426162;
+    height: 170px;
+    margin: 15px; }
+  .max-price p {
+    font-size: 30px;
+    text-align: center;
+    line-height: 40px; }
+  .price-block h3 {
+    font-size: 23px;
+    margin-bottom: 0px;
+    padding: 10px 0; }
+  .price ul p {
+    text-align: center; }
+  .price .row .col-md-6 li {
+    margin: 5px 0;
+    font-size: 14px; }
+  .price .row .col-md-6 .pl30 {
+    padding-left: 0;
+    margin-left: 0; }
+  .price .row h4 {
+    font-size: 23px;
+    text-align: center; }
+  .price .row p {
+    font-size: 14px;
+    text-align: center; }
+  .down-price {
+    position: absolute;
+    bottom: 125px;
+    left: 50%;
+    display: block;
+    width: 100%;
+    margin-left: -50%;
+    font-size: 21px; }
+  .down-link {
+    margin-top: -130px; }
+  .calс_tab_p_2 {
+    display: none !important; }
+  .calс_tab_p_input input {
+    font-size: 1.5em; }
+  .calculator h2 {
+    font-size: 23px;
+    margin-top: 45px; }
+  .calculator p {
+    font-size: 14px; }
+  .result .sum {
+    float: left; }
+  footer {
+    height: auto;
+    padding: 10px; }
+  .footer-phones {
+    width: 200px;
+    display: block;
+    margin: 0 auto; }
+  .footer-timing {
+    width: 200px;
+    display: block;
+    margin: 0 auto; }
+  .footer-location {
+    width: 200px;
+    display: block;
+    margin: 0 auto; } }

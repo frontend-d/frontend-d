@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Big box</title>
+	<!--Libs min css-->
+    <link rel="stylesheet" href="css/libs.min.css">
+	<!--Bootstrap SDN CSS-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+	<!--Main css-->
+    <link rel="stylesheet" href="css/main.css">
+	<!--Responsive css-->
+    <link rel="stylesheet" href="css/media.css">
+    <!--Font-awesome css-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">     
+    <!--jQuery MOBILE css-->
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+</head>
+<body>
+    <div class="first-section">
+        <div class="container">
+            <header>
+                <div class="row">
+                    <div class="hidden-xs col-sm-3 col-md-3">
+                        <div class="location-block">
+                            <span>г. Харьков</span>
+                            <p>ул. Основянская, 55</p>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-6">
+                        <div class="logoblock">
+                            <span href="#" class="logo"></span>
+                        </div>
+                    </div>
+                    <div class="hidden-xs col-sm-3 col-md-3">
+                        <div class="phones-block">
+                            <span>(067) 518 95 93</span>
+                            <span>(099) 206 23 59</span>
+                            <span>(063) 327 63 99</span>
+                            <p>8:00 - 20:00</p>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <div class="caption-block">
+                <div class="row">
+                    <div class="col-sm-12 col-md-12">
+                        <h3>Центр хранения Ваших вещей</h1>
+                        <p>Склад хранения для частных лиц и бизнеса.</p>
+                        <span class="hidden-xs">оставить место для главного</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="arrow-block">
+        <div class="circle">
+            <div class="iner-circle">
+                <div class="arrow glyphicon glyphicon-chevron-down"></div>
+            </div>
+        </div>
+    </div>
+    <div class="icon-bar">
+        <div class="container">
+            <h3>Наши приемущества</h3>
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <img src="img/svg/security.svg" alt="icon">
+                    <h2>Безопасность хранения</h2>
+                    <p>Охраняемая территория<br/>под круглосуточным видеонаблюдением.<br/>Склад находится под сигнализацией</p>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <img src="img/svg/location.svg" alt="icon">
+                    <h2>Удобное расположение<br/>складов</h2>
+                    <p>Склады находятся в удобных<br/>транспортных развязках и имеют<br/>асфальтрованный подъзд</p>
+                </div>
+                <div class="col-xs-12 col-md-4">
+                    <img src="img/svg/transport.svg" alt="icon">
+                    <h2>Услуги транспортировки<br/>и погрузочные работы</h2>
+                    <p>Машины разных габаритов и<br/>квалифицированные грузчики</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-md-4 col-md-offset-2">
+                    <img src="img/svg/price.svg" alt="icon">
+                    <h2>Доступная цена</h2>
+                    <p>Вы платите только за обьем<br/>сдаваемого товара</p>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <img src="img/svg/packaging.svg" alt="icon">
+                    <h2>Упаковочные материалы</h2>
+                    <p>У нас вы можете приобрести<br/>материалы для упаковки вещей</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="second-block">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 col-md-offset-1">
+                    <div class="mini-repository">
+                        <img src="img/backpack.png" alt="backpack-pict" class="hidden-xs">
+                        <p>Вам может показаться, что на хранение<br/>сдают только<span> габаритные вещи</span>, либо<br/>вещей <span>должно быть много!</span><br/>Спешим Вас заверить что <span>это не так!</span><br/>МЫ ПРЕДЛАГАЕМ НА ХРАНЕНИЕ <span>ДАЖЕ РЮКЗАК!</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="consultation-block">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 col-md-offset-1">                    
+                    <div class="consultation-form">
+                        <h3>Консультация со специалистом</h3>
+                        <form method="post" id="sendm" action="">
+                            <input class="consultatin-form form-control name-form" type="text" name="user_name" placeholder="Имя" required>
+                            <input class="consultatin-form form-control" type="tel" name="phone" placeholder="Вaш телефон" pattern="\d [0-9]" required>
+                            <button type="submit" class="btn btn-primary" value="Заказть звонок">Заказть звонок</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="worth-block">
+        <div class="container">
+            <div class="row" class="animation fade-in-left">
+                <div class="col-md-12">
+                    <div class="first-worth-type worth-1">
+                        <div class="text-block">
+                            <h2>Затеяли ремонт?</h2>
+                            <p class="top-text">Стал вопрос куда деть мебель, технику и другие<br/>вещи на период ремнота?</p>
+                            <p>Обращайтесь к нам - мы поможем с грузчиками,<br/>приедем, упакуем, увезем на хранение и привезем<br/>обратно по вашей команде.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="second-worth-type worth-2">
+                        <div class="text-block">
+                            <h2>Купили новую мебель либо<br/>бытовую технику?</h2>
+                            <p class="top-text">Не решили что делать со старой?</p>
+                            <p>Можете сдать нам на хранение, а если решите ее<br/>продать, просто давайте наши контакты покупателям,<br/>мы будем показывать товар, и вам не нужно будет<br/>каждый раз выезжать на встечу и тратить свое<br/>время. При этом мы берем плату только за хранение.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row" class="animation fade-in-left">
+                <div class="col-md-12">
+                    <div class="first-worth-type worth-3">
+                        <div class="text-block">
+                            <h2>Где хранить сезонные вещи?</h2>
+                            <p>Зима закончилась, на улице потеплело и теперь все<br/>место в шкафах  и комодах занимают теплые вещи,<br/>которые понадобятся только осенью?<br/>Дайте место лету! <i class="far fa-smile"></i></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row" class="animation fade-in-left">
+                <div class="col-md-12">
+                    <div class="second-worth-type worth-4">
+                        <div class="text-block">
+                            <h2>Нет места для детских вещей?</h2>
+                            <p>Ребенок подрос? Куда временно деть кроватку,<br/>коляску, одежду, игрушки!?<br/>А ведь эти вещи могут еще понадобиться <i class="far fa-smile"></i></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row" class="animation fade-in-left">
+                <div class="col-md-12">
+                    <div class="first-worth-type worth-5">
+                        <div class="text-block">
+                            <h2>Много вещей?</h2>
+                            <p>Кладовка загружена?<br/>Балкон заставлен так, что не пройти?<br/>Используйте балкон правильно <i class="far fa-smile"></i></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row" class="animation fade-in-left">
+                <div class="col-md-12">
+                    <div class="second-worth-type worth-6">
+                        <div class="text-block">
+                            <h2>Куда девать сезонную резину<br/>после переобувки?</h2>
+                            <p>Хранение резины - 15 гривен в месяц  за<br/>одно колесо</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row" class="animation fade-in-left">
+                <div class="col-md-12">
+                    <div class="first-worth-type worth-7">
+                        <div class="text-block">
+                            <h2>Переезжаете в новый офис, купили<br/>новое оборудование, негде хранить бухгалтерскю докуметацию или просто много лишних офисных стульев?</h2>
+                            <p>Не заставляйте свое рабочее и офисное пространство предметами, которые будут мешать работать вам, вашим коллегам и просто собирать пыль. Мы организуем упаковку, перевозку и надежное хранение вашего бизнес оборудования. И по вашему желанию поможем вам его продать.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row" class="animation fade-in-left">
+                <div class="col-md-12">
+                    <div class="second-worth-type worth-8">
+                        <div class="text-block">
+                            <h2>Вы ездите на велосипеде<br/>круглый год?</h2>
+                            <p>Хранение 1  велосипеда - 70 грн в месяц</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="motive-description">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 col-md-offset-1">
+                    <div class="description">
+                        <p>Практика хранить вещи на складах ответственного хранениях существует во многих странах мира и становится популярной в Харькове и других городах Украины.<br/>Озадачились вопросом хранения домашних вещей? У нас есть решение этой проблемы.Компания BIG Box представляет вашему вниманию услуги хранения личных и сезонных вещей в надежном, сухом складе в Харькове. Это очень удобно и совсем недорого.<br/>Нам всем в квартире не хватает места. Например, лыжи, санки, сноуборд и зимняя одежда не нужны летом, а зимой точно не потребуется велосипед или надувная лодка! Чемоданы, новогодняя елка, игрушки и еще найдется много разных вещей, которые нужны всего несколько дней в году, а все остальное время занимают полезное пространство в квартире или доме. Временное складское помещение — отличное решение проблемы переезда, ремонта, сдачи квартиры в аренду и других ситуаций, когда необходимо освободить пространство. Ваши вещи останутся в целости и сохранности на протяжении всего срока хранения.<br/>К нам обращаются не только обычные люди, но и предприниматели. Наша гибкость – вот что собенно привлекает корпоративных клиентов. Если ваш бизнес зависит от сезонного спроса, вы можете арендовать большую территорию в разгар сезона, а на время спада поменять его на маленькую площадь. Получить в распоряжение помещение для хранения необходимых вам вещей вы можете минимум на 1 месяц. Ограничений в длительности предоставляемых услуг нет. Наша компания предлагает своим клиентам разнообразный грузовой транспорт, удобную парковку, упаковку и погрузку вещей.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="consultation-block">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 col-md-offset-1">                    
+                    <div class="consultation-form">
+                        <h3>Узнайте стоимость хранения Ваших вещей</h3>
+                        <form method="post" id="sendm" action="mail.php">
+                            <input class="consultatin-form form-control name-form" type="text" name="user_name" placeholder="Имя" required>
+                            <input class="consultatin-form form-control" type="tel" name="phone" placeholder="Вaш телефон" pattern="\d [0-9]" required>
+                            <button type="submit" class="btn btn-primary" value="Заказть звонок">Заказть звонок</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="perfect-location-block">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 col-md-offset-1">
+                    <div class="perfect-location">
+                        <div class="location-description">
+                            <p>Наши  склады будут открываться <span>в разных районах</span> города, и если вы ранее сдали вещи на удаленный от Вашего дома склад, и после этого <span>открылся новый</span> центр хранения вещей <span>ближе к Вашему дому</span> - в таком случае мы сделаем Вам <span>скидку 30%</span> на обратную доставку вещей*</p>
+                            <p class="smoll-text">* Скидка предоставляется при условии пользования нашей службой доставки при обратной транспортировки вещей</p>
+                        </div>
+                        <img src="img/awesome-locations.png" alt="backpack-pict">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="price-block">
+        <div class="container">
+            <h3>Наши расценки</h3>
+            <div class="row">
+                <div class="max-price">
+                    <div class="col-xs-12 col-md-5 col-md-offset-1">
+                        <p>7 грн/куб<br/>в день максимум</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 col-md-6 col-md-offset-5">
+                    <div class="price">
+                        <h3>Скидки</h3>
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-6 col-md-6">
+                                <ul>
+                                    <li>
+                                        <p><span>От объема</span></p>
+                                    </li>
+                                    <li>
+                                        <p>От 2 кубов - <span>5%</span></p>
+                                    </li>
+                                    <li>
+                                        <p>От 3 кубов - <span>10%</span></p>
+                                    </li>
+                                    <li>
+                                        <p>От 4 кубов - <span>15%</span></p>
+                                    </li>
+                                    <li>
+                                        <p>От 5 кубов - <span>20%</span></p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 col-md-6">
+                                <ul class="pl30">
+                                    <li>
+                                        <p><span>От продолжительности</span></p>
+                                    </li>
+                                    <li>
+                                        <p>От 3 месяцев - <span>5%</span></p>
+                                    </li>
+                                    <li>
+                                        <p>От 6 месяцев - <span>10%</span></p>
+                                    </li>
+                                    <li>
+                                        <p>От 12 месяцев - <span>20%</span></p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <h4>Скидки суммируются</h4>
+                            <p>Если обьемы или сроки сдаваемого Вами на хранение товара превышают указанные скидочные предложения, - скидка определяется индивидуально.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p class="down-price">Прайс лист упаковочных материалов</p>
+        </div>
+    </div>
+    <div class="link-block">
+        <a href="#" class="down-link">Открыть pdf</a>
+    </div>
+    <div class="calculator">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2>Калькулятор рассчетов стоимости хранения</h2>
+                    <p>Просчитайте самостоятельно обьем перемножив<br/>высоту*длину*ширину каждой сдаваемой вещи и суммируйте<br/>их обьем.</p>
+                </div>
+            </div>
+            <form name="calculate">
+                <div class="row">
+                    <div class="col-xs-6 col-sm-4 col-sm-offset-2 col-md-2 col-md-offset-0 col-lg-offset-0">
+                        <p>Объем</p>
+                        <span>м3</span>
+                    </div>
+                    <div class="col-xs-6 col-sm-4 col-md-10">
+                        <!--SLIDER UI-->
+                        <div class="calс_tab calс_tab_1">
+                            <div class="calс_tab_p_1">
+                                <div class="calс_tab_p_input"><input id="a" type="text" value="1" class="calс_tab_p_input_val calc_1_val_type_1 slideControl" maxlength="3" /></div>
+                            </div>
+                            <div class="calс_tab_p_2">
+                                <div class="calс_tab_slider" range="min" data-min="0.1" data-val="1" data-step="0.1" data-max="10">
+                                </div>
+                                <div class="calс_tab_slider_grad"></div>
+                                <ul class="gradation">
+                                    <li id="grad0">0</li>
+                                    <li id="grad1">1</li>
+                                    <li id="grad2">2</li>
+                                    <li id="grad3">3</li>
+                                    <li id="grad4">4</li>
+                                    <li id="grad5">5</li>
+                                    <li id="grad6">6</li>
+                                    <li id="grad7">7</li>
+                                    <li id="grad8">8</li>
+                                    <li id="grad9">9</li>
+                                    <li id="grad10">10</li>
+                                </ul>
+                            </div>
+                        </div> 
+                        <!--SLIDER UI AND-->
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-6 col-sm-4 col-sm-offset-2 col-md-2 col-md-offset-0 col-lg-offset-0">
+                        <p>Срок хранения</p>
+                        <span>дни</span>
+                    </div>
+                    <div class="col-xs-6 col-sm-4 col-md-10">
+                        <!--SLIDER UI-->
+                        <div class="calс_tab calс_tab_1">
+                            <div class="calс_tab_p_1">
+                                <div class="calс_tab_p_input"><input id="b" type="text" value="1" class="calс_tab_p_input_val calc_1_val_type_1 slideControl" maxlength="3" /></div>
+                            </div>
+                            <div class="calс_tab_p_2">
+                                <div class="calс_tab_slider" data-min="30" data-val="30" data-step="1" data-max="360"></div>
+                                <div class="calс_tab_slider_grad"></div>
+                                <ul class="gradation gradtiming">
+                                    <li id="grad30">30</li>
+                                    <li id="grad60">60</li>
+                                    <li id="grad90">90</li>
+                                    <li id="grad120">120</li>
+                                    <li id="grad150">150</li>
+                                    <li id="grad180">180</li>
+                                    <li id="grad210">210</li>
+                                    <li id="grad240">240</li>
+                                    <li id="grad270">270</li>
+                                    <li id="grad300">300</li>
+                                    <li id="grad300">330</li>
+                                    <li id="grad360">360</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!--SLIDER UI AND-->
+                    </div>
+                </div>
+                <div class="result">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-5 col-sm-offset-1 col-md-4 col-md-offset-0 col-lg-offset-0 hidden-xs">
+                            <p>Точный просчет сдаваемого объема сделает наш специалист при приеме вещей</p>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-8">
+                            <div class="sum">
+                                <div class="content">
+                                    <span>Всего:</span>
+                                    <div id="summary"></div>
+                                </div>  
+                                <button name="vvod" onclick="calc()" type="button" class="btn btn-primary" value="Рассчитать">Рассчитать</button>  
+                            </div>                    
+                        </div>
+                    </div>
+                </li>
+            </form>
+        </div>
+    </div>
+    <div class="consultation-block mb0">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 col-md-offset-1">                    
+                    <div class="consultation-form">
+                        <h3>Обращайтесь, и мы всегда договоримся <i class="far fa-smile"></i></h3>
+                        <form method="post" id="sendm" action="mail.php">
+                            <input class="consultatin-form form-control name-form" type="text" name="user_name" placeholder="Имя" required>
+                            <input class="consultatin-form form-control" type="tel" name="phone" placeholder="Вaш телефон" pattern="\d [0-9]" required>
+                            <button type="submit" class="btn btn-primary" value="Заказть звонок">Заказть звонок</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="map" style="width: 100%; height: 500px;"></div>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-3 col-md-3">
+                    <div class="footer-location">          
+                        <span class="icon-footer"><i class="fas fa-map-marker-alt"></i></span>
+                        <span class="city">г. Харьков<br/>ул. Основянская, 55</span>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-3 col-sm-offset-1 col-md-3 col-md-offset-1"> 
+                    <div class="footer-timing">                    
+                        <span class="icon-footer"><i class="fas fa-clock"></i></span>
+                        <span class="work-time">Время работы:<br/>8:00 - 20:00</span>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-3 col-sm-offset-1 col-md-3 col-md-offset-1"> 
+                    <div class="footer-phones">    
+                        <span class="icon-footer"><i class="fas fa-phone"></i></span>
+                        <ul>
+                            <li>(067) 518 95 93</li>
+                            <li>(099) 206 23 59</li>
+                            <li>(063) 327 63 99</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-1 col-md-1 "> 
+                    <div class="development">
+                        <a class="blackhorse" href="https://blackhorse.com.ua" target="_blank" title="Создание и продвижение сайта Black Horse"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+	<!--Bootstrap SDN JS-->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+	<!--Все JS Библиотеки-->
+    <script src="js/libs.min.js"></script>    
+    <!--jquery Mobile js-->
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>    
+    <script src="jquery.ui.touch-punch.min.js"></script>
+    <!--MAP-->
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCqmS-peASETwq09C58E4WmJldtYSUOe2w"></script>
+	<!--Пользовательские скрипты-->
+    <script src="js/common.js"></script> 	
+</body>
+</html>
